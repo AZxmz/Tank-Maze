@@ -19,7 +19,7 @@ public class BulletController : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-            // 关键修复：先检查 bulletOwner 是否还存在
+            //bulletOwnerがまだ存在するかどうかを確認します。
         if (bulletOwner == null || bulletOwner.gameObject == null)
         {
             Destroy(gameObject);
@@ -52,3 +52,4 @@ public class BulletController : MonoBehaviour
         bulletOwner = owner;
     }
 }
+
