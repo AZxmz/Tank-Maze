@@ -41,3 +41,11 @@
 
 ### 2. コアアルゴリズム
 このジェネレーターは **[プリム法 (Prim's Algorithm)]** を使用しています。
+
+## 参考 (References)
+
+本作の開発にあたり、一部の実装において以下のサードパーティ製リソースを参考にさせていただきました。
+
+* **[JSON for Modern C++]**
+    * **対象ファイル：** `[Assets/MazeGenerationTool/MazeForTank/json.hpp]`
+    * **参考元 (URL)：** [https://github.com/nlohmann/json]
